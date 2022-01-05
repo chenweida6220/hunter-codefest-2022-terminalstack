@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: cadetblue;
+}
+
+.navbar a {
+  float: left;
+  font-size: 20px;
+  color: floralwhite;
+  text-align: justify;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 20px;  
+  border: none;
+  outline: none;
+  color: floralwhite;
+  padding: 20px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: brown;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+h1{
+  font-size: 35px;
+}
+
+h2{
+  font-size: 30px;
+}
+</style>
+</head>
+<title>Asian American in NYC </title>
+<body style = "background-color: floralwhite;">
+
+<h1 style = "text-align: center;">Asian American Snacks</h2>
+
+<div class="navbar">
+    <a href="./website.html">Home</a>
+    <a href="#news">News</a>
+    <div class="dropdown">
+      <button class="dropbtn">Food</button>
+      <div class="dropdown-content">
+        <a href="./meals.html">Something More Filling</a>
+        <a href="./snacks.html">A Quick Bite</a>
+      </div>
+    </div> 
+  </div>
+
+<h2>Brooklyn</h2>
+
+<h2>Manhattan</h2>
+
+<h2>Queens</h2>
+
+</body>
+</html>
