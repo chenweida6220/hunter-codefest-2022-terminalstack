@@ -1,1 +1,3 @@
 # hunter-codefest-2022-terminalstack
+
+Our project was based in the aspect of social good. It is a website with a compilation of different city services. On it, users can learn the basics of performing CPR, check their local weather and traffic, as well as find the mental health services that they may be looking for. We also have a feature which allows the user to text 911 in case they are in a situation where they woudln't want to call 911.
